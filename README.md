@@ -40,83 +40,82 @@ DocSpot is a full-stack healthcare appointment booking platform that simplifies 
 
 ---
 
-## 🛠️ Installation
+# 📂 Project Structure – DocSpot
 
-### Prerequisites:
-- Node.js and npm
-- MongoDB (local or MongoDB Atlas)
-- Git
+docspot-app/
+├── backend/                     # Node.js + Express.js server
+│   ├── controllers/             # Business logic and route handlers
+│   ├── models/                  # Mongoose schemas for MongoDB
+│   ├── routes/                  # REST API routes (auth, users, appointments)
+│   ├── middleware/              # JWT auth, error handling, role checks
+│   ├── .env                     # Environment variables (PORT, DB URI, JWT secret)
+│   ├── server.js                # Entry point for backend
+│   └── package.json             # Backend dependencies and scripts
+│
+├── frontend/                    # React.js application
+│   ├── public/                  # Static assets like index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── common/          # Shared components (Header, Footer)
+│   │   │   ├── user/            # Patient components
+│   │   │   ├── doctor/          # Doctor dashboard components
+│   │   │   └── admin/           # Admin panel components
+│   │   ├── App.js               # Main app structure and routing
+│   │   └── index.js             # React app entry point
+│   └── package.json             # Frontend dependencies and scripts
+│
+├── README.md                    # Project introduction and instructions
+└── vercel.json                  # (Optional) Vercel deployment config
 
-### 📦 Clone the Repository
+⚙️ Setup Instructions
+✅ Prerequisites
+Node.js (v16+ recommended)
 
-```bash
-git clone https://github.com/your-username/docspot-app.git
-cd docspot-app
-🛠️ Install Dependencies
-Backend:
-bash
-Copy
-Edit
+MongoDB (local or Atlas)
+
+Git
+
+Code Editor (e.g., VS Code)
+
+# 🖥️ Backend Setup
 cd backend
-npm install
-Frontend:
-bash
-Copy
-Edit
-cd ../frontend
-npm install
-⚙️ Running the Application
-Start Backend:
-bash
-Copy
-Edit
-cd backend
-npm start
-Start Frontend:
-bash
-Copy
-Edit
-cd frontend
-npm start
-Once both servers are running, the application will be available at:
-🔗 http://localhost:3000
 
-🔐 Environment Variables
-Create a .env file in the backend/ directory with the following:
+# Install server dependencies
+npm install
 
-env
-Copy
-Edit
+# Create a .env file and add the following:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
-📁 Project Structure
-plaintext
-Copy
-Edit
-frontend/
-├── src/
-│   ├── components/
-│   │   ├── admin/
-│   │   ├── common/
-│   │   └── user/
-│   ├── App.js
-│   └── index.js
-├── public/
-└── package.json
 
-backend/
-├── controllers/
-├── models/
-├── routes/
-├── middleware/
-├── server.js
-└── package.json
-📌 Future Enhancements
-✅ Video consultation support
+# Start the backend server
+npm start
 
-✅ Integrated payment system
+# 🌐 Frontend Setup
+cd ../frontend
 
-✅ Prescription sharing and pharmacy linkage
+# Install React app dependencies
+npm install
 
-✅ Patient feedback and doctor rating system
+# Start the React development server
+npm start
+Visit: http://localhost:3000 to use the app.
+
+# 🔮 Future Enhancements
+# Video Consultation
+Allow patients to consult doctors via secure video calls.
+
+# Online Payment Integration
+Enable online payments for appointments and consultations.
+
+# Prescription Upload & Sharing
+Doctors can upload prescriptions, which patients can download or share with pharmacies.
+
+# Feedback & Ratings
+Patients can rate doctors and share their feedback after appointments.
+
+# Health Records Dashboard
+Patients can maintain and view a history of visits, prescriptions, and reports.
+
+# 📄 License
+This project is licensed under the MIT License.
