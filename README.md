@@ -66,6 +66,7 @@ docspot-app/
 │
 ├── README.md                    # Project introduction and instructions
 └── vercel.json                  # (Optional) Vercel deployment config
+
 ---
 
 ⚙️ Setup Instructions
