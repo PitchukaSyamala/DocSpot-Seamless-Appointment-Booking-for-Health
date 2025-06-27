@@ -69,15 +69,15 @@ docspot-app/
 
 ```
 
-⚙️ Setup Instructions
-✅ Prerequisites
-Node.js (v16+ recommended)
+# ⚙️ Setup Instructions
+  Prerequisites
+  Node.js (v16+ recommended)
 
-MongoDB (local or Atlas)
+  MongoDB (local or Atlas)
 
-Git
+  Git
 
-Code Editor (e.g., VS Code)
+  Code Editor (e.g., VS Code)
 
 # 🖥️ Backend Setup
 cd backend
