@@ -41,7 +41,7 @@ DocSpot is a full-stack healthcare appointment booking platform that simplifies 
 ---
 
 # 📂 Project Structure – DocSpot
-
+```bash
 docspot-app/
 ├── backend/                     # Node.js + Express.js server
 │   ├── controllers/             # Business logic and route handlers
@@ -66,7 +66,7 @@ docspot-app/
 │
 ├── README.md                    # Project introduction and instructions
 └── vercel.json                  # (Optional) Vercel deployment config
-
+```bash
 ⚙️ Setup Instructions
 ✅ Prerequisites
 Node.js (v16+ recommended)
@@ -80,42 +80,42 @@ Code Editor (e.g., VS Code)
 # 🖥️ Backend Setup
 cd backend
 
-# Install server dependencies
+### Install server dependencies
 npm install
 
-# Create a .env file and add the following:
+### Create a .env file and add the following:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 
-# Start the backend server
+### Start the backend server
 npm start
 
 # 🌐 Frontend Setup
 cd ../frontend
 
-# Install React app dependencies
+### Install React app dependencies
 npm install
 
-# Start the React development server
+### Start the React development server
 npm start
 Visit: http://localhost:3000 to use the app.
 
 # 🔮 Future Enhancements
-# Video Consultation
+### Video Consultation
 Allow patients to consult doctors via secure video calls.
 
-# Online Payment Integration
+### Online Payment Integration
 Enable online payments for appointments and consultations.
 
-# Prescription Upload & Sharing
+### Prescription Upload & Sharing
 Doctors can upload prescriptions, which patients can download or share with pharmacies.
 
-# Feedback & Ratings
+### Feedback & Ratings
 Patients can rate doctors and share their feedback after appointments.
 
-# Health Records Dashboard
+### Health Records Dashboard
 Patients can maintain and view a history of visits, prescriptions, and reports.
 
-# 📄 License
+### 📄 License
 This project is licensed under the MIT License.
