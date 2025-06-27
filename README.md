@@ -66,7 +66,8 @@ docspot-app/
 │
 ├── README.md                    # Project introduction and instructions
 └── vercel.json                  # (Optional) Vercel deployment config
-```bash
+---
+
 ⚙️ Setup Instructions
 ✅ Prerequisites
 Node.js (v16+ recommended)
