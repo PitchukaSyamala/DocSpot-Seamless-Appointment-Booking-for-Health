@@ -47,26 +47,25 @@ DocSpot is a full-stack healthcare appointment booking platform that simplifies 
 - MongoDB (local or MongoDB Atlas)
 - Git
 
-### Clone the Repository:
+### 📦 Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/docspot-app.git
 cd docspot-app
-# Docspot
-
-** Install Dependencies:**
-For Backend:
+🛠️ Install Dependencies
+Backend:
 bash
 Copy
 Edit
 cd backend
 npm install
-For Frontend:
+Frontend:
 bash
 Copy
 Edit
 cd ../frontend
 npm install
-⚙️ Running the App
+⚙️ Running the Application
 Start Backend:
 bash
 Copy
@@ -79,11 +78,11 @@ Copy
 Edit
 cd frontend
 npm start
-The application will be available at:
-http://localhost:3000
+Once both servers are running, the application will be available at:
+🔗 http://localhost:3000
 
-**🔐 Environment Variables**
-Create a .env file in the backend directory with the following variables:
+🔐 Environment Variables
+Create a .env file in the backend/ directory with the following:
 
 env
 Copy
@@ -91,12 +90,11 @@ Edit
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
-**📁 Project Structure**
-pgsql
+📁 Project Structure
+plaintext
 Copy
 Edit
 frontend/
-│
 ├── src/
 │   ├── components/
 │   │   ├── admin/
@@ -114,12 +112,11 @@ backend/
 ├── middleware/
 ├── server.js
 └── package.json
-**📌 Future Enhancements**
-Video consultation support
+📌 Future Enhancements
+✅ Video consultation support
 
-Integrated payment system
+✅ Integrated payment system
 
-Prescription sharing and pharmacy linkage
+✅ Prescription sharing and pharmacy linkage
 
-Feedback and rating system
-
+✅ Patient feedback and doctor rating system
