@@ -103,7 +103,11 @@ npm install
 
 ### Start the React development server
 npm start
-Visit: http://localhost:3000 to use the app.
+Visit: http://localhost:3000 to use the app
+
+## 🌍 Live Demo
+
+🔗 **Try the App**: https://docspot-deployment.vercel.app/
 
 # 🔮 Future Enhancements
 ### Video Consultation
